@@ -1,0 +1,27 @@
+.header{
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 80%;
+    align-items: baseline;
+   
+}
+
+.header-nav{
+    margin-left: 100px;
+    align-items: baseline;   
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
