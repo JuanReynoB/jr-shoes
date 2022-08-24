@@ -1,27 +1,36 @@
 .header{
-    padding: 1em;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 20% 80%;
     align-items: baseline;
-   
+    background-color: #282c34;
+}
+
+.header-brand-name{
+    color: white;
 }
 
 .header-nav{
     margin-left: 100px;
-    align-items: baseline;   
+    align-items: baseline; 
+    
 }
 
-.header-nav ul{
+ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    margin-left: 500px;
     list-style: none;
-    font-size: 1.25rem;
+    font-size: 20px;
+}
+
+li{
+    margin-left: 20px;
+    
 }
 
 a{
     text-decoration: none;
-    color:black;
+    color: white;
 }
 
